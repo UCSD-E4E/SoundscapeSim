@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!244 &-5025279029870274372
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_EffectID: 4ef32db60fa7702459905345523d61b7
-  m_EffectName: Project Acoustics Mixer
-  m_MixLevel: 9cda64954ec639c43bb742744ddf3029
-  m_Parameters:
-  - m_ParameterName: Wetness Adjust
-    m_GUID: 010dbc5ec6919ce4292db0bec4835eea
-  - m_ParameterName: RT60 Scale
-    m_GUID: e9966b2a9f471c54e8e349edbfa3d9be
-  - m_ParameterName: Spatializer
-    m_GUID: cb862eb630d9f024280085d16864d3ee
-  m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 1
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -56,9 +36,8 @@ AudioMixerGroupController:
   m_Pitch: 0aa1180444c57084cb0139ffa6a73c57
   m_Send: 00000000000000000000000000000000
   m_Effects:
-  - {fileID: 244421083419740658}
   - {fileID: 24400004}
-  - {fileID: -5025279029870274372}
+  - {fileID: 244421083419740658}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
